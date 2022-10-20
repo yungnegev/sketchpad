@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+/*    background-image: url('./images/background.jpg'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.size-selector{
+    display: flex;
+    align-items: center;
+    width: 350px ;
+    justify-content: space-around;
+}
+
+.btn-hub{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-around;
+}
+
+.canvass{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    border: solid;
+    margin: 20px;
+}
